@@ -1,8 +1,8 @@
 import path from "path";
 import express, { Express, Request, Response, NextFunction } from "express";
 
-import apiRoutes from "./api-routes/index.js";
-import db from "./helpers/mongodb.js";
+import apiRoutes from "./api-routes/index";
+import db from "./helpers/mongodb";
 
 const app: Express = express();
 const port: number = Number(process.env.PORT) || 8080;

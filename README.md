@@ -19,7 +19,8 @@ Crypto Chart is a full-stack [MERN](https://www.geeksforgeeks.org/mern-stack/) a
       Currently only basic functions are implemented, but I believe that with support for other exchanges and the addition of technical indicators, it will become a practical application.
 
 ## Language and Libraries
-
+- Node Version
+    - v20.17.0
 - Client
     - TypeScript
     - React
@@ -118,7 +119,12 @@ https://docs.kraken.com/rest/#tag/Market-Data/operation/getTradableAssetPairs
 npm run dev-initialize-data
 ```
 
-### 6. Run frontend and backend
+### 6. Run batch processing to update ohlcv data
+```bash
+npm run dev-udpate-data
+```
+
+### 7. Run frontend and backend
 ```bash
 npm run dev
 ```
